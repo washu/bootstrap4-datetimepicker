@@ -2342,7 +2342,7 @@
         if (element.hasClass('input-group')) {
             // in case there is more then one 'input-group-addon' Issue #48
             if (element.find('.datepickerbutton').length === 0) {
-                component = element.find('.input-group-addon');
+                component = element.find('.input-group-append');
             } else {
                 component = element.find('.datepickerbutton');
             }
