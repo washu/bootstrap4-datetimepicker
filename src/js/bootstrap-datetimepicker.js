@@ -1354,7 +1354,7 @@
             detachDatePickerElementEvents = function () {
                 input.off({
                     'change': change,
-                    'blur': blur,
+                    'blur': options.debug ? '' : hide,
                     'keydown': keydown,
                     'keyup': keyup,
                     'focus': options.allowInputToggle ? hide : ''
