@@ -2498,14 +2498,14 @@
             selectTime: 'Select Time'
         },
         useStrict: false,
-        sideBySide: false,
+        sideBySide: true,
         daysOfWeekDisabled: false,
         calendarWeeks: false,
         viewMode: 'days',
         toolbarPlacement: 'default',
         showTodayButton: false,
-        showClear: false,
-        showClose: false,
+        showClear: true,
+        showClose: true,
         widgetPositioning: {
             horizontal: 'auto',
             vertical: 'auto'
